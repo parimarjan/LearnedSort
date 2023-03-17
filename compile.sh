@@ -11,6 +11,7 @@ then
 mkdir build 
 fi
 cd build
-cmake -D CMAKE_CXX_COMPILER=g++ --target ${TARGETS} ..
+#cmake -D CMAKE_CXX_COMPILER=g++ --target ${TARGETS} ..
+cmake -D CMAKE_CXX_COMPILER=g++ ${TARGETS} ..
 make -j${NUM_CPUS} ${TARGETS}
 cd ..
