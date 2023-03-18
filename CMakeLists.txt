@@ -3,7 +3,7 @@ project(LearnedSort)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -Wall -fopt-info-vec-optimized")
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}  -O3  -march=native -fno-strict-overflow -mavx")
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}  -O3  -march=native -fno-strict-overflow")
 set(CMAKE_BUILD_TYPE RELEASE)
 
 set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
